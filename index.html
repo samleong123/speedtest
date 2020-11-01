@@ -27,6 +27,14 @@
 								<p><li><a href="assets/bin/50MB.bin">50MB.bin</a></p>
 								<p><li><a href="assets/bin/80MB.bin">80MB.bin</a></p>
 								<p><li><a href="assets/bin/100MB.bin">100MB.bin</a></p>
+								<p>Your IP Address : </p>
+											<script type="application/javascript">
+    function getip(json){
+      document.write(json.ip+" "+","+" "+json.city+" "+","+" "+json.country_name);
+    }
+</script>
+
+<script type="application/javascript" src="https://freegeoip.app/json/?callback=getip"></script>
 							</div>
 						</div>
 						<nav>
@@ -59,9 +67,7 @@
 								<p>Therefore , users will be able to observe the speed and quality of your network connection to the Github server</p>
 								<p>This site is fully powered by <a href="https://www.github.com/">Github</a> and <a href="https://www.cloudflare.com/">Cloudflare</a></p>
 								
-								<script type="text/javascript" src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
-
-Current connected JSDelivr CDN PoP(s): <span id="cdn">Please Wait</span> 
+						
 
 							</article>
 
